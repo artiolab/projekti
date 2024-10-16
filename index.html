@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logodiv">
+        <h1>GIZMODO</h1>
+       
+      </div>
+      <nav>
+        
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="articles">
+    <div class="container">
+      <div class="article">
+        <img src="foto1.jpg" alt="Article 1 Thumbnail">
+        <h2>Article 1</h2>
+        <h1>Apple Intelligence Is Set to Make Your Attention Span  Shorter</h1>
+        <p>These are all the Apple Intelligence features coming to iPhone on October 28.</p>
+        <a href="#" class="read-more" onclick="showArticle(1)">Read More</a>
+      </div>
+      
+      <div class="article">
+        <img src="foto2.jpg" alt="Article 2 Thumbnail">
+        <h2>Article 2</h2>
+        <h1>YouTube Is Finally Adding a Sleep Timer Now</h1>
+        <p>You will also be able to playback video in 0.05 speed increments and add custom thumbnails to your playlists.</p>
+        <a href="#" class="read-more" onclick="showArticle(2)">Read More</a>
+      </div>
+      
+      <div class="article">
+        <img src="foto3.jpg" alt="Article 3 Thumbnail">
+        <h2>Article 3</h2>
+        <h2>iPad Mini Is Back, and this time It’s Primed for AI</h2>
+        <p>The tiny iPad Mini may be bigger than an iPhone, but this time it is packing an A17 Pro chip plus support for Apple Pencil Pro.</p>
+        <a href="#" class="read-more" onclick="showArticle(3)">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="social-links">
+        <a href="https://facebook.com" class="social-icon">Facebook</a>
+        <a href="https://Twitter.com" class="social-icon">Twitter</a>
+        <a href="https://Instagram.com" class="social-icon">Instagram</a>
+      </div>
+      <p>&copy; 2024 My Blog. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  
+  <script>
+  function showArticle(articleId) {
+  alert(`Navigating to full article ${articleId}`);
+  }
+  </script>
+</body>
+</html>
